@@ -9,14 +9,17 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-			rel="stylesheet"
-		/>
+			rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+			crossorigin="anonymous" 
+			referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
-	<body>
-		<header class="header">
-			<a class="logo" href="./index.html">Web<span class="logo-black">Studio</span> </a>
-			<div>
+
+<header class="header">
+	<div class="container">
+				<a class="logo" href="./index.html">Web<span class="logo-black">Studio</span> </a>
 				<nav>
 					<ul class="header-nav list">
 						<li><a href="./index.html" class="header-link link current">Студія</a></li>
@@ -31,104 +34,133 @@
 					<li>
 						<a href="tel:+380961111111" class="header-adres link">+38 096 111 11 11</a>
 					</li>
-				</ul>
-			</div>
-		</header>
+				</ul>	
+	</div>
+</header>
 
-		<main>
-			<section class="hero-section">
-				<h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-				<button type="button" class="button">Замовити послугу</button>
-			</section>
+			<main>
 
-			<section class="original">
-				<h2 class="visually-hidden">Особливості</h2>
-				<ul class="original-list list">
-					<li>
-						<h3 class="original-title">Увага до деталей</h3>
-						<p class="original-pretitle pretitle">
-							Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-						</p>
-					</li>
-					<li>
-						<h3 class="original-title">Пунктуальність</h3>
-						<p class="original-pretitle">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-					</li>
-					<li>
-						<h3 class="original-title">Планування</h3>
-						<p class="original-pretitle">Так само консультація з широким активом значною мірою зумовлює.</p>
-					</li>
-					<li>
-						<h3 class="original-title">Сучасні технології</h3>
-						<p class="original-pretitle">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-					</li>
-				</ul>
-			</section>
-			<section class="robota">
-				<h2 class="robota-title title">Чим ми займаємося</h2>
-				<ul class="robota-list list">
-					<li>
-						<img src="./images/img1.jpg" alt="Програмування на планшеті" width="370" />
-					</li>
-					<li>
-						<img src="./images/img2.jpg" alt="Разробка аплікацій на телефон" width="370" />
-					</li>
-					<li>
-						<img src="./images/img3.jpg" alt="Кольорова схема" width="370" />
-					</li>
-				</ul>
-			</section>
-			<section class="section-komanda">
-				<h2 class="comanda-title title">Наша команда</h2>
-				<ul class="comanda-list list">
-					<li class="foto-item">
-						<img src="./images/igor.jpg" alt="фото Ігоря" width="270" />
-						<h3 class="fio">Ігор Дем'яненко</h3>
-						<p class="profesion" lang="en">Product Designer</p>
-					</li>
-					<li class="foto-item">
-						<img src="./images/olga.jpg" alt="фото Ольги" width="270" />
-						<h3 class="fio">Ольга Рєпіна</h3>
-						<p class="profesion" lang="en">Frontend Developer</p>
-					</li>
-					<li class="foto-item">
-						<img src="./images/nikolay.jpg" alt="фото Миколи" width="270" />
-						<h3 class="fio">Микола Тарасов</h3>
-						<p class="profesion" lang="en">Marketing</p>
-					</li>
-					<li class="foto-item">
-						<img src="./images/mihail.jpg" alt="фото Михайла" width="270" />
-						<h3 class="fio">Михайло Єрмаков</h3>
-						<p class="profesion" lang="en">UI Designer</p>
-					</li>
-				</ul>
-			</section>
-		</main>
+				<section class="section hero-section">
+			<div class="container con-hearo">	
+					<h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+					<button type="button" class="button">Замовити послугу</button>
+			</div>				
+		</section> 
 
-		<footer>
-			<div class="footer">
-				<a class="logo" href="./index.html">Web<span class="logo-white">Studio</span> </a>
-				<address>
-					<ul class="footer-adres list">
+	
+			<section class="section original">
+				<div class="container con-original">	
+					<h2 class="visually-hidden">Особливості</h2>
+					<ul class="original-list list">
 						<li>
-							<a
-								href="https://goo.gl/maps/RHjdxaCmpPA8mE757"
-								target="_blank"
-								rel="noopener noreferrer"
-								class="karta link"
-							>
-								м. Київ, пр-т Лесі Українки, 26
-							</a>
+							<h3 class="original-title">Увага до деталей</h3>
+							<p class="original-pretitle pretitle">
+								Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+							</p>
 						</li>
 						<li>
-							<a href="mailto:info@example.com" class="footer-akcent link">info@example.com</a>
+							<h3 class="original-title">Пунктуальність</h3>
+							<p class="original-pretitle">
+								Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+							</p>
 						</li>
 						<li>
-							<a href="tel:+380991111111" class="footer-akcent link">+38 099 111 11 11</a>
+							<h3 class="original-title">Планування</h3>
+							<p class="original-pretitle">Так само консультація з широким активом значною мірою зумовлює.</p>
+						</li>
+						<li>
+							<h3 class="original-title">Сучасні технології</h3>
+							<p class="original-pretitle">
+								Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+							</p>
 						</li>
 					</ul>
-				</address>
-			</div>
-		</footer>
-	</body>
+				</div>				
+			</section>
+
+
+<section class="section con-robota">
+	<div class="container">
+					<h2 class="robota-title title">Чим ми займаємося</h2>
+					<ul class="robota-list list">
+						<li>
+							<img src="./images/img1.jpg" alt="Програмування на планшеті" width="370" />
+						</li>
+						<li>
+							<img src="./images/img2.jpg" alt="Разробка аплікацій на телефон" width="370" />
+						</li>
+						<li>
+							<img src="./images/img3.jpg" alt="Кольорова схема" width="370" />
+						</li>
+					</ul>
+	</div>				
+</section>
+
+
+				<section class="section komanda">
+	<div class="container con-komanda">					
+		<h2 class="comanda-title title">Наша команда</h2>
+					<ul class="comanda-list list">
+						<li class="foto-item">
+							<img src="./images/igor.jpg" alt="фото Ігоря" width="270" />
+						<div class="cont-fio">
+							<h3 class="fio">Ігор Дем'яненко</h3>
+							<p class="profesion" lang="en">Product Designer</p>
+						</div>
+						</li>
+						<li class="foto-item">
+							<img src="./images/olga.jpg" alt="фото Ольги" width="270" />
+						<div class="cont-fio">
+							<h3 class="fio">Ольга Рєпіна</h3>
+							<p class="profesion" lang="en">Frontend Developer</p>
+						</div>
+						</li>
+						<li class="foto-item">
+							<img src="./images/nikolay.jpg" alt="фото Миколи" width="270" />
+						<div class="cont-fio">
+							<h3 class="fio">Микола Тарасов</h3>
+							<p class="profesion" lang="en">Marketing</p>
+						</div>
+						</li>
+						<li class="foto-item">
+							<img src="./images/mihail.jpg" alt="фото Михайла" width="270" />
+						<div class="cont-fio">
+							<h3 class="fio">Михайло Єрмаков</h3>
+							<p class="profesion" lang="en">UI Designer</p>
+						</div>
+						</li>
+					</ul>
+	</div>				
+			</section>
+			</main>
+
+<footer>
+	<div class="footer">			
+					<div class="container">		
+					<a class="logo" href="./index.html">Web<span class="logo-white">Studio</span> </a>
+					<address>
+						<ul class="footer-adres list">
+							<li>
+								<a
+									href="https://goo.gl/maps/RHjdxaCmpPA8mE757"
+									target="_blank"
+									rel="noopener noreferrer"
+									class="karta link"
+								>
+									м. Київ, пр-т Лесі Українки, 26
+								</a>
+							</li>
+							<li>
+								<a href="mailto:info@example.com" class="footer-akcent link">info@example.com</a>
+							</li>
+							<li>
+								<a href="tel:+380991111111" class="footer-akcent link">+38 099 111 11 11</a>
+							</li>
+						</ul>
+					</address>
+				</div>	
+	</div>
+</footer>
+		
+</body>
 </html>
